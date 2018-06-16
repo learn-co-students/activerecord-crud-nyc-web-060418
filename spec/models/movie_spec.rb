@@ -6,7 +6,7 @@ describe 'Movie' do
       lead: "Paul Newman",
       in_theaters: false
   }}
-
+ 
   it 'inherits from ActiveRecord::Base' do
     expect(Movie.superclass).to eq(ActiveRecord::Base)
   end
